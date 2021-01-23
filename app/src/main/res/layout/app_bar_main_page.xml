@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        layout="@layout/content_main_page"
+        android:layout_height="841dp"
+        android:layout_width="0dp"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:layout_anchorGravity="center"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/scanbtn"
+        android:layout_width="229dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/buttons"
+        android:text="Scan to Unlock"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="657dp"
+        android:layout_marginTop="50dp"
+        tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+
+
+    <TextView
+        android:id="@+id/scantext"
+        android:layout_width="229dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="620dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
