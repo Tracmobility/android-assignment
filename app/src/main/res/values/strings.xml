@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TracMobilityAssessment</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_default_title">Hi Oliver Jones</string>
+    <string name="nav_default_phone">+44 712 345 6789</string>
+    <string name="nav_wallet_txt">10.23 £ GBP</string>
+    <string name="nav_map_txt">12 Rides</string>
+    <string name="nav_profile_title_prefix">"Hi "</string>
+    <string name="nav_default_email">test@test.com</string>
+
+    <string name="appbar_tv_trac">T R A C</string>
+
+    <string name="menu_membership">Membership</string>
+    <string name="menu_promo">Promos</string>
+    <string name="menu_free_ride">Get Free Ride</string>
+
+    <string name="login_firstname">First Name</string>
+    <string name="login_lastname">Last Name</string>
+    <string name="login_email">E-Mail</string>
+    <string name="login_login_buttontext">Login</string>
+    <string name="login_signup_buttontext">Sign Up</string>
+    <string name="login_email_errortext">Please enter email</string>
+    <string name="login_firstname_errortext">Please enter first name</string>
+    <string name="login_lastname_errortext">Please enter last name</string>
+
+    <string name="map_marker_title">title</string>
+    <string name="map_main_buttonunlock">Scan to Unlock</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="snackbar_actiontext">OK</string>
+    <string name="shared_preferences_current_user">current_user</string>
+
+    <string name="com_auth0_client_id">Qjz4tUhUuZgSG4pmrmxo0perTVLJKhnx</string>
+    <string name="com_auth0_domain">shaykalali.eu.auth0.com</string>
+
+    <string name="google_webclient_id">1025629538342-iaiqgildbi7676j9gtgmmf22hp1cibr2.apps.googleusercontent.com</string>
+    <string name="login_google_Sign_in_is_failed">Google login failed</string>
+    <string name="google_provider_id">google.com</string>
+
+    <string name="facebook_app_id">478639106471781</string>
+    <string name="fb_login_protocol_scheme">fb478639106471781</string>
+    <string name="facebook_app_package_name">com.facebook.katana</string>
+    <string name="facebook_provider_id">facebook.com</string>
+    <string name="login_facebook_login_not_installed">Please install facebook application</string>
+    <string name="login_facebook_login_is_failed">Facebook login failed</string>
+
+</resources>

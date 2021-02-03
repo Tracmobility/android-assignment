@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1025629538342",
+    "project_id": "tracmobilityassesment-98c24",
+    "storage_bucket": "tracmobilityassesment-98c24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025629538342:android:0facad8de0236396893ee7",
+        "android_client_info": {
+          "package_name": "com.example.tracmobilityassessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025629538342-84fnarosrs08gos3obqoj7cam2f096jn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tracmobilityassessment",
+            "certificate_hash": "0471f7f632c2483076c5524e79aa02f1564dc1c0"
+          }
+        },
+        {
+          "client_id": "1025629538342-iaiqgildbi7676j9gtgmmf22hp1cibr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUU3kHnKGDpeirZ3V_OXGrOMNgrJeuanA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025629538342-iaiqgildbi7676j9gtgmmf22hp1cibr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

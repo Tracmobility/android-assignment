@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="MyErrorText" parent="AppTheme.NoActionBar">
+        <item name="android:textColor">@color/all_edittext_error</item>
+
+    </style>
+</resources>

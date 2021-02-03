@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors to apply in views -->
+    <color name="all_edittext_error">@color/pink</color>
+
+    <!-- General palettes -->
+    <color name="app_primary_color">@color/greenlight</color>
+    <color name="app_primarydark_color">@color/greendark</color>
+    <color name="app_accent_color">@color/gray</color>
+    <color name="gray">#999999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="greenlight">#9ac0c3</color>
+    <color name="greendark">#84afb5</color>
+    <color name="pink">#FF4081</color>
+</resources>
